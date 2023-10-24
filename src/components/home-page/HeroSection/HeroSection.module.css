@@ -1,0 +1,30 @@
+.heroImage {
+  /* background: linear-gradient(url(../../assets/transparent-hero.png)); */
+  width: 700px;
+  height: 700px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(78, 235, 222, 0.095),
+      rgba(34, 230, 223, 0.242)
+    ),
+    url(../../../assets/transparent-hero.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  /* box-shadow: 0px 0px 10px red; */
+}
+@media (max-width: 1350px) {
+  .heroImage {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (max-width: 1150px) {
+  .heroImage {
+    width: 400px;
+    height: 400px;
+  }
+  .heroImageCon {
+    display: none !important;
+  }
+}

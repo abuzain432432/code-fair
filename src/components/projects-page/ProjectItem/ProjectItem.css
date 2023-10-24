@@ -1,0 +1,142 @@
+.card-flip {
+  perspective: 1000px;
+}
+
+.card-flip:hover .flip,
+.card-flip.hover .flip {
+  transform: rotateY(180deg);
+}
+.card-flip,
+.front,
+.back {
+  width: 100%;
+}
+
+.flip {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.card-image {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 69% 84%, 0 100%);
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.card-owner-name {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 1;
+  font-style: italic;
+}
+.team-member-email {
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1;
+  font-style: italic;
+}
+/* CODING CARD */
+.coding-card .back {
+  background: linear-gradient(to bottom left, #31a531, #86f486);
+}
+.coding-card .card-heading {
+  color: #003300 !important;
+}
+.coding-card .card-owner-name {
+  color: #007300 !important;
+}
+.coding-card .card-btn {
+  background-color: white !important;
+  color: #004d00 !important;
+  transition: all 0.5s;
+}
+.coding-card .card-btn:hover,
+.coding-card .category-tag {
+  background-color: #004d00 !important;
+  color: white !important;
+}
+
+/* POSTER CARD */
+.poster-card .back {
+  background: linear-gradient(to top right, #1aa2dc82, #0089c2);
+}
+
+.poster-card .card-heading {
+  color: #003d56 !important;
+}
+.poster-card .card-owner-name {
+  color: #005b82;
+}
+.poster-card .card-btn {
+  background-color: white !important;
+  color: #0089c2 !important;
+  transition: all 0.5s;
+}
+.poster-card .card-btn:hover,
+.poster-card .category-tag {
+  background-color: #0089c2 !important;
+  color: #fff !important;
+}
+
+/* RESEARCH CARD */
+.research-card .back {
+  background: linear-gradient(to top right, #c5cdad, #a1ae7c);
+}
+
+.research-card .card-heading {
+  color: #535c37 !important;
+}
+.research-card .card-owner-name {
+  color: #7c8b52;
+}
+.research-card .card-btn {
+  background-color: white !important;
+  color: #7c8b52 !important;
+  transition: all 0.5s;
+}
+.research-card .card-btn:hover,
+.research-card .category-tag {
+  background-color: #7c8b52 !important;
+  color: #fff !important;
+}
+
+/* DATA SCIENCE CARD */
+.data-science-card .back {
+  background: linear-gradient(to bottom left, #a64da6, #cc99cc);
+}
+
+.data-science-card .card-heading {
+  color: #400040 !important;
+}
+.data-science-card .card-owner-name {
+  color: #8d1a8d;
+}
+.data-science-card .card-btn {
+  background-color: white !important;
+  color: #800080 !important;
+  transition: all 0.5s !important;
+}
+.data-science-card .card-btn:hover,
+.data-science-card .category-tag {
+  background-color: #800080 !important;
+  color: #fff !important;
+}
+.delete-btn:hover {
+  background-color: white !important;
+  color: red !important;
+}

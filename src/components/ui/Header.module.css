@@ -1,0 +1,18 @@
+:global(.chakra-menu__menuitem) {
+  width: fit-content !important;
+  color: white !important;
+}
+:global(.chakra-menu__menu-button) {
+  display: none !important;
+}
+.menu-btn {
+  display: none !important;
+}
+/* .menu {
+  background-color: #628788;
+} */
+@media (max-width: 1024px) {
+  :global(.chakra-menu__menu-button) {
+    display: inline-flex !important;
+  }
+}

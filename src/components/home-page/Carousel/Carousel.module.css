@@ -1,0 +1,49 @@
+.carousel-item {
+  grid-column: 2/-1;
+}
+/* CONTROLS */
+
+.btn--left {
+  /* In relation to PARENTE ELEMENT */
+  left: 0;
+  top: 50%;
+
+  /* In relation to ELEMENT ITSELF */
+  transform: translate(50%, -50%);
+}
+
+.btn--right {
+  right: 0;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -10px);
+
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot--fill {
+  background-color: #087f5b;
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    grid-column: 1/-1;
+  }
+}

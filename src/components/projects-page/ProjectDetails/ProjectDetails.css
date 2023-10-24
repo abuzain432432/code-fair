@@ -1,0 +1,49 @@
+.thumb {
+  height: 50px !important;
+  object-fit: cover;
+}
+.thumbs-wrapper {
+  margin-left: 0 !important;
+}
+.poster .label {
+  color: #005b82 !important;
+  font-style: italic;
+  font-weight: 600 !important;
+}
+.poster .tag {
+  background-color: #005b82 !important;
+  color: white;
+}
+/* CODING  */
+.coding-card .label {
+  color: #004d00 !important;
+  font-style: italic;
+  font-weight: 600 !important;
+}
+
+.coding-card .tag {
+  background-color: #007300 !important;
+  color: white;
+}
+/* RESEARCH  */
+.research-card .label {
+  color: #535c37 !important;
+  font-style: italic;
+  font-weight: 600 !important;
+}
+
+.research-card .tag {
+  background-color: #535c37 !important;
+  color: white;
+}
+/* DATA-SCIENCE  */
+.data-science-card .label {
+  color: #400040 !important;
+  font-style: italic;
+  font-weight: 600 !important;
+}
+
+.data-science-card .tag {
+  background-color: #400040 !important;
+  color: white;
+}
