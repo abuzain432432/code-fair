@@ -1,9 +1,9 @@
 # CodeFair
 
-![Alt Text](../frontend/readme-images/4.png)
-![Alt Text](../frontend/readme-images/7.png)
-![Alt Text](../frontend/readme-images/8.png)
-![Alt Text](../frontend/readme-images/20.png)
+![Alt Text](./frontend/readme-images/4.png)
+![Alt Text](./frontend/readme-images/7.png)
+![Alt Text](./frontend/readme-images/8.png)
+![Alt Text](./frontend/readme-images/20.png)
 
 ## npm i to install the packages
 
