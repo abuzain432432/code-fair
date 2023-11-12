@@ -1,7 +1,7 @@
 # Technologies Used
 
 ## Frontend:
-### React, Redux Toolkit, Redux Toolkit Query
+### React, Redux Toolkit, Redux Toolkit Query, node, express
 
 ## Backend: 
 ### Node.js, Express Database: MongoDB
