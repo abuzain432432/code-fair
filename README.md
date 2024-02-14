@@ -14,23 +14,23 @@
 
 ### CodeFair is a dynamic and feature-rich web application designed to facilitate collaboration and showcase a diverse range of coding and development projects. Built using cutting-edge technologies, including MongoDB, Node.js, Express, and React, CodeFair empowers users to perform Create, Read, Update, and Delete (CRUD) operations while ensuring the highest standards of security and web development practices.
 
-![Project page](banner.jpg)
+![Project page](readme-images/banner.jpg)
 
-![Project page](4.png)
+![Project page](readme-images/4.png)
 
-![Login page](7.png)
+![Login page](readme-images/7.png)
 
-![Signup page](8.png)
+![Signup page](readme-images/8.png)
 
-![Signup page](20.png)
+![Signup page](readme-images/20.png)
 
-![Signup page](12.png)
+![Signup page](readme-images/12.png)
 
-![Signup page](5.png)
+![Signup page](readme-images/5.png)
 
-![Signup page](5.png)
+![Signup page](readme-images/5.png)
 
-![Signup page](6.png)
+![Signup page](readme-images/6.png)
 
 # Key Features
 
